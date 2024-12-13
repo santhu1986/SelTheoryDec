@@ -1,0 +1,192 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Check Login with multiple sets of Data",
+        "description": "",
+        "id": "orange-login-functionality;check-login-with-multiple-sets-of-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16949271200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User used on Orange Home Page",
+            "match": {
+              "location": "LoginStepDef.user_used_on_Orange_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6479835100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"Admin\" and \"Admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 13
+                },
+                {
+                  "val": "Admin123",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDef.user_enters_Username_and_Password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4256700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Validates Login Functionality",
+            "match": {
+              "location": "LoginStepDef.user_Validates_Login_Functionality()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Check Login with multiple sets of Data",
+        "description": "",
+        "id": "orange-login-functionality;check-login-with-multiple-sets-of-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13709312100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User used on Orange Home Page",
+            "match": {
+              "location": "LoginStepDef.user_used_on_Orange_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7243524900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"Manual\" and \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manual",
+                  "offset": 13
+                },
+                {
+                  "val": "Admin",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginStepDef.user_enters_Username_and_Password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2943400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Validates Login Functionality",
+            "match": {
+              "location": "LoginStepDef.user_Validates_Login_Functionality()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Check Login with multiple sets of Data",
+        "description": "",
+        "id": "orange-login-functionality;check-login-with-multiple-sets-of-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12773008800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User used on Orange Home Page",
+            "match": {
+              "location": "LoginStepDef.user_used_on_Orange_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6486092000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"Automation\" and \"Adminxyz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation",
+                  "offset": 13
+                },
+                {
+                  "val": "Adminxyz",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStepDef.user_enters_Username_and_Password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2918200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Validates Login Functionality",
+            "match": {
+              "location": "LoginStepDef.user_Validates_Login_Functionality()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Orange Login Functionality",
+    "description": "",
+    "id": "orange-login-functionality",
+    "keyword": "Feature",
+    "uri": "D:/SeleniumTheoryOct/Selenium/src/features/OrangeLogin.feature"
+  }
+]

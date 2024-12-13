@@ -1,0 +1,36 @@
+package scripts;
+
+
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+public class Sgrid
+{
+
+	DesiredCapabilities Cap;
+	@Test
+	public void Grd() throws MalformedURLException, InterruptedException
+	{
+		Cap=new DesiredCapabilities();
+		Cap.setBrowserName("chrome");
+		Cap.setPlatform(Platform.WINDOWS);
+		
+		RemoteWebDriver driver=new RemoteWebDriver(new URL("http://192.168.0.107:4444/wd/hub"),Cap);
+		
+		
+		driver.manage().window().maximize();
+		driver.get("https://opensource-demo.orangehrmlive.com");
+		Thread.sleep(3000);
+		
+		OrangeHP OHP=PageFactory.initElements(driver,OrangeHP.class);
+		OHP.Login("Admin","admin123");
+		
+	}
+}

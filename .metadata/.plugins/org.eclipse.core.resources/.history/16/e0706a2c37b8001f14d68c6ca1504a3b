@@ -1,0 +1,9 @@
+Feature: Orange Login Functionality
+
+Scenario: Check Login with Valid data
+
+Given User used on Orange Home Page
+
+When User enters Username and Password
+
+Then user Validates Login Functionality
